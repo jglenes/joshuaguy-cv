@@ -1,0 +1,23 @@
+% \NeedsTexFormat{LaTeX2e}
+\documentclass{curve}
+\usepackage[T1]{fontenc}
+\usepackage[letterpaper,left=2cm,right=2cm,top=1.5cm,nohead,nofoot]{geometry}
+\usepackage{textcomp}
+\usepackage{color}
+\usepackage[colorlinks]{hyperref}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setromanfont{Lora}
+
+\titlefont{\fontspec{Lato}\bfseries\huge}
+\subtitlefont{\fontspec{Lora}\itshape\Large}
+\rubricfont{\fontspec{Lato}\bfseries\Large}
+\subrubricfont{\fontspec{Lato}\bfseries\itshape\large}
+
+% CuRvE Options
+\setlength \subrubricspace{3ex} % Spacing between rubrics 
+\prefix{} % No bullets on entries
+\rubricalignment{l} % Left-aligned rubric title
+\subrubricalignment{l} % Left-aligned subrubric title
+\keyalignment{r} % Right-aligned entry keys
