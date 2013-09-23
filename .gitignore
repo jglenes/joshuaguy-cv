@@ -17,10 +17,13 @@ Icon
 *.acr
 *.alg
 *.aux
+*.bcf
+*.bib
 *.bbl
 *.blg
 *.dvi
 *.fdb_latexmk
+*.fls
 *.glg
 *.glo
 *.gls
@@ -39,6 +42,7 @@ Icon
 *.out
 *.pdfsync
 *.ps
+*.run.xml
 *.snm
 *.synctex.gz
 *.toc
